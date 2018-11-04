@@ -1,5 +1,56 @@
 body {
   margin: 0;
-  padding: 0;
+  padding: 50px;
   font-family: sans-serif;
+}
+
+.todo-items {
+  background-color: #F5F5DC;
+  width: 500px;
+  height: 300px;
+  padding: 30px;
+  margin: 10%;
+  box-shadow: 0.5px 1px lightgray;
+}
+
+.input {
+  outline-color: darkpink;
+  width: 148px;
+  height: 18px;
+}
+
+.button {
+  background-color: #1E90FF;
+  color: white;
+  border-radius: 4px;
+  outline-color: darkpink;
+  height: 22px;
+  border: none;
+  font-weight: bold;
+  margin-left: 4px;
+}
+
+.text {
+  margin-bottom: 10px;
+  font-family: 'Pacifico', cursive;
+  font-size: 18px;
+}
+
+.todo-text {
+  font-family: 'Pacifico', cursive;
+}
+
+.remove-button {
+  background-color: #1E90FF;
+  color: white;
+  border-radius: 4px;
+  outline-color: darkpink;
+  height: 22px;
+  border: none;
+  font-weight: bold;
+  margin-left: 4px;
+}
+
+.returns {
+  font-family: 'Pacifico', cursive;
 }
